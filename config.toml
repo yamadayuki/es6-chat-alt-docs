@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://yamadayuki.github.io/es6-chat-alt-docs/"
 languageCode = "en-us"
 title = "My New Hugo"
 theme = "hugo-material-docs"
