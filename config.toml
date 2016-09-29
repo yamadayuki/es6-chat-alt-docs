@@ -1,0 +1,18 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "My New Hugo"
+theme = "hugo-material-docs"
+canonifyurls = true
+
+[params]
+  author = "Yamada"
+  description = "ES6 Chat"
+
+  [params.palette]
+    primary = "teal"
+    accent  = "blue"
+
+[[menu.main]]
+  name   = "Getting start"
+  url    = "/"
+  weight = 0
