@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo</title>
+    <link>http://replace-this-with-your-hugo-site.com/</link>
+    <description>Recent content on My New Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Sep 2016 19:37:33 +0900</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://replace-this-with-your-hugo-site.com/</link>
+      <pubDate>Thu, 29 Sep 2016 19:37:33 +0900</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/</guid>
+      <description>
+
+&lt;h1 id=&#34;es6-chat-alt&#34;&gt;es6-chat-alt&lt;/h1&gt;
+
+&lt;p&gt;React.js + Babel + alt.js&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Reactの練習。&lt;br /&gt;
+最近Fluxの実装を色々見ていて、良さそうなのがあったので試してみた。&lt;br /&gt;
+Fluxの実装として&lt;a href=&#34;https://github.com/goatslacker/alt&#34;&gt;alt.js&lt;/a&gt;というものがAirbnbの&lt;a href=&#34;https://github.com/goatslacker&#34;&gt;@goatslacker&lt;/a&gt;によって実装されている。&lt;br /&gt;
+Reactとalt.jsをつかってFacebookのReactのexamplesにある、chatを実装した。&lt;br /&gt;
+ただし、alt.jsのexamplesにも同じようなことがされているので、今回は練習も兼ねてES6(Babel)をつかって実装した。ただし、まだあまりES6の仕様に慣れていないのもあって、そこまでいい感じにES6のよさが使えていないと思う。&lt;/p&gt;
+
+&lt;p&gt;ビルドツールにはgulpを使用して、browserifyとbabelifyでビルド。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$ npm install
+$ gulp
+$ open index.html
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
